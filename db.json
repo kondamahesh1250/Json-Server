@@ -1,0 +1,154 @@
+{
+    "searchstation": [
+        {
+            "HYD": {
+                "station name": "Hyderabad",
+                "state name": "Telangana"
+            }
+        },
+        {
+            "KMR": {
+                "station name": "Kamareddy",
+                "state name": "Telangana"
+            }
+        },
+        {
+            "NZB": {
+                "station name": "Nizamabad",
+                "state name": "Telangana"
+            }
+        },
+        {
+            "MMD": {
+                "station name": "Manmad Junction",
+                "state name": "Maharashtra"
+            }
+        },
+        {
+            "MMI": {
+                "station name": "Mumbai",
+                "state name": "Maharashtra"
+            }
+        }
+    ],
+    "searchtrain": [
+        {
+            "12720" : {
+                "train number": "12720",
+                "train name": "HYB JP SF EXPRESS",
+                "route": "HYDERABAD-SECUNDERABAD-KAMAREDDY-NIZAMABAD-MUDKHED JN-BHOPAL-NIMACH-KISHANGARH-JAIPUR"
+            }
+        },
+        {
+            "17058" : {
+                "train number": "17058",
+                "train name": "DEVAGIRI EXPRESS",
+                "route": "SECUNDERABAD-NIZAMABAD-BASAR-DHARMABAD-UMRI-PURNA-JUNCTION-PARTUR-JALNA-AURANGABAD-DADAR CENTRAL-MUMBAI CENTRAL"
+            }
+        },
+        {
+            "17406" : {
+                "train number": "17406",
+                "train name": "KRISHNA EXPRESS",
+                "route": "ADILABAD-BHOKAR-UMRI-DHARMABAD-BASAR-SECUNDERABAD-JANGAON-NEKONDA-ONGOLE-NELLORE-GUNTUR-TIRUPATI"
+            }
+        },
+        {
+            "12696" : {
+                "train number" : "12696",
+                "train name" : "MGR CHENNAI CENTRAL EXPRESS",
+                "route" : "THIRUVANANTHAPURAM-CHENGANNUR-TIRUVALLA-THRISSUR-COIMBATORE-VANIYAMBADI-ARAKONNAM-CHENNAI CENTRAL"
+            }
+        },
+        {
+            "19301" : {
+                "train number" : "19301",
+                "train name" : "YESVANTPUR WEEKLY EXPRESS",
+                "route" : "KANNUR-VADAKARA-TIRUR-PALAKKAD-COIMBATORE JUNCTION-DHARMAPURI-HOSUR-BANASWADI-YESVANTPUR JUNCTION"
+            }
+        },
+        {
+            "16734" : {
+                "train number" : "16734",
+                "train name" : "OKHA RMM EXPRESS",
+                "route" : "OKHA-DWARKA-HAPA-RAJKOT-VADODARA-NAGARSOL-PURNA JN-NIZAMABAD-KURNOOL-TIRUPATI-MADURAI-RAMANTHAPURAM-RAMESWARAM"
+            }
+        }    
+        
+    ],
+    "trainsbetweenstation" : [
+          {
+            "trainNumber": "12720",
+            "trainName": "HYB JP SF EXPRESS",
+            "fromStation": "HYD",
+            "toStation": "JAIPUR"
+          },
+          {
+            "trainNumber": "17058",
+            "trainName": "DEVAGIRI EXPRESS",
+            "fromStation": "SECUNDERABAD",
+            "toStation": "MUMBAI CENTRAL"
+          },
+          {
+            "trainNumber": "17406",
+            "trainName": "KRISHNA EXPRESS",
+            "fromStation": "ADILABAD",
+            "toStation": "TIRUPATI"
+          },
+          {
+            "trainNumber": "12696",
+            "trainName": "MGR CHENNAI CENTRAL EXPRESS",
+            "fromStation": "THIRUVANANTHAPURAM",
+            "toStation": "CHENNAI CENTRAL"
+          },
+          {
+            "trainNumber": "19301",
+            "trainName": "YESVANTPUR WEEKLY EXPRESS",
+            "fromStation": "KANNUR",
+            "toStation": "YESVANTPUR"
+          }
+        ],
+        "trainschedule" : [
+            {
+                "12720" : {
+                    "train name": "HYB JP SF EXPRESS",
+                    "day" : "MONDAY",
+                    "station name" : "HYDERABAD",
+                    "time" : "6:15 PM - 7:30 AM"
+                }
+            },
+            {
+                "17058" : {
+                    "train name": "DEVAGIRI EXPRESS",
+                    "day" : "TUESDAY",
+                    "station name" : "SECUNDERABAD",
+                    "time" : "7:15 PM - 6:30 AM"
+                }
+            },
+            {
+                "17406" : {
+                    "train name": "KRISHNA EXPRESS",
+                   "day" : "WEDNESDAY",
+                    "station name" : "KACHEGUDA",
+                    "time" : "8:30 AM - 11:15 AM"
+                }
+            },
+            {
+                "12696" : {
+                    "train name" : "MGR CHENNAI CENTRAL EXPRESS",
+                    "day" : "THURSDAY",
+                    "station name" : "CHENNAI",
+                    "time" : "5:45 AM - 8:30 PM"
+                }
+            },
+            {
+                "19301" : {
+                    "train name" : "YESVANTPUR WEEKLY EXPRESS",
+                    "day" : "FRIDAY",
+                    "station name" : "BANGALORE",
+                    "time" : "9:45 AM - 11:20 AM"
+                }
+            }
+        ]
+      }
+      
